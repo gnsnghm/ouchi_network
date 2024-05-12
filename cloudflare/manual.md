@@ -2,7 +2,7 @@
 
 proxmox は Cloudflare tunnel を活用して特定のメールアドレスを入力すると、そのメールアドレス宛てにワンタイムパスワードが届くような仕組みを取っていた。
 
-しかしながらメールが来るタイミングが10分かかったりメールが届かなかったりしてあまりに気に入っていなかった。
+しかしながらメールが来るタイミングが 10 分かかったりメールが届かなかったりしてあまりに気に入っていなかった。
 
 困っていたら会社で「EntraID(以下、Azure AD) でやってみたで～」って人にやり方教えてもらった。
 
@@ -15,7 +15,7 @@ proxmox は Cloudflare tunnel を活用して特定のメールアドレスを�
 1. Applications を登録
 1. Policy を登録
 1. アクセス確認
-1. 502 が出る場合の対処法(RTX1210編)
+1. 502 が出る場合の対処法(RTX1210 編)
 
 ## Azure AD を登録
 
@@ -36,12 +36,11 @@ https://dev.classmethod.jp/articles/cloudflare-zero-trust-idp-integration-aggreg
 
 認証を趣味用 Gmail アカウントでやろうとしてはじかれた。
 
-当たり前体操すぎるが、30分くらいハマった。
+当たり前体操すぎるが、30 分くらいハマった。
 
 本当は組織から作ってあーだこーだするらしいが、自分は個人なので下記手順で作った
 
 https://support.ptc.com/help/identity_and_access_management/ja/index.html#page/iam/AzureADCreateInviteUsers.html
-
 
 ## Tunnel 登録
 
@@ -60,9 +59,9 @@ Cloudflared を選択>Next
 今回は Debian でインストール
 
 ```shell
-curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && 
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb &&
 
-sudo dpkg -i cloudflared.deb && 
+sudo dpkg -i cloudflared.deb &&
 
 sudo cloudflared service install [API Key]
 ```
@@ -75,8 +74,7 @@ Routing したいプライベートネットワークを Service に記載
 
 最後に Save tunnel をしてここの設定は終わり
 
-![](img/10_30_name.png)
-
+![](img/10_30_host.png)
 
 ## Applications を登録
 
@@ -89,7 +87,7 @@ Add an application>Self-hosted
 
 ### Application domain
 
-- Subdomain：*
+- Subdomain：\*
 - Domain：先ほど登録したドメイン
 
 ## Policies
@@ -113,13 +111,13 @@ Save policy 忘れずに
 
 ## 確認
 
-https://(subdomain).(fqdn) でアクセスして以下の画面が表示されていればOK
+https://(subdomain).(fqdn) でアクセスして以下の画面が表示されていれば OK
 
 ![](img/10_50_zerotrust.png)
 
-## 502 が出る場合の対処法(RTX1210編)
+## 502 が出る場合の対処法(RTX1210 編)
 
-VLAN内のサーバに接続するようにしていたためポートの許可が足りていなかった。
+VLAN 内のサーバに接続するようにしていたためポートの許可が足りていなかった。
 
 guacamole の場合は 8080 を通してやるようにすれば OK
 
