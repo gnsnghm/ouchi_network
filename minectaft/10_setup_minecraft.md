@@ -195,7 +195,7 @@ Access>Applications の設定は[他でやっている](../cloudflare/manual.md)
 
 今回は http/https ではないため client 側にも cloudflared をインストールする必要がある
 
-今回は [公式](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/) Windows なので winget を使ってインストールする
+今回は Windows なので、[公式](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/)にそって winget でインストールする。
 
 Powershell を起動して以下を実行
 
