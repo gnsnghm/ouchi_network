@@ -5,10 +5,21 @@
 ## 前提
 
 - Broker
-  - ActiveMQ Applo
+  - ActiveMQ Classic
 - Client
   - Nodejs
     - mqtt-connection
+
+## やったこと
+
+後で書く
+
+## Queue と Topic の違い
+
+| 名前   | セマンティック | メッセージの受信の仕方                                                                                                                               |
+| ------ | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Queues | Load Balancer  | そのときの active な 1 つの cunsumer にメッセージが送られる。active な consumer がいなければ active な consumer が現れるまでメッセージは保留される。 |
+| Topics | Pub/Sub        | そのときの active な全ての consumer にメッセージが送られる。                                                                                         |
 
 ## 参考
 
