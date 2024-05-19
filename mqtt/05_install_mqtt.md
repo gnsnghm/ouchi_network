@@ -188,12 +188,9 @@ Producer を使ってメッセージを送信
 ## 参考
 
 公式 Example
+
 https://activemq.apache.org/components/classic/documentation/examples
 
 参考にした qiita 記事
 
 https://qiita.com/toshiyukihina/items/a6abdff5bf701b1c2773
-
-```
-
-```
