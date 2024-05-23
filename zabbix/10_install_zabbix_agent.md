@@ -75,3 +75,32 @@ Ncat: Version 7.80 ( https://nmap.org/ncat )
 Ncat: Connected to 192.168.101.100:10050.
 Ncat: 0 bytes sent, 0 bytes received in 0.05 seconds.
 ```
+
+## 成功
+
+ただただ config 設定していないだけだった
+
+参考
+
+https://www.server-world.info/query?os=Ubuntu_18.04&p=zabbix40&f=7
+
+```conf
+root@pve:~# vim /etc/zabbix/zabbix_agent2.conf
+
+# 98行目：Zabbix サーバーを指定
+Server=192.168.101.200
+
+# Zabbix サーバーを指定
+ServerActive=192.168.101.200
+
+# 自身のホスト名に変更
+Hostname=pve.local
+```
+
+```shell
+systemctl start zabbix-agent2
+```
+
+少しまったら有効化された
+
+![](10_img/30_active_proxmox.png)
