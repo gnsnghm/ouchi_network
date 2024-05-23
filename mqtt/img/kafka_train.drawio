@@ -1,10 +1,25 @@
-<mxfile host="65bd71144e">
-    <diagram id="z5sTvMuWFLJlRwLJd7aa" name="ページ1">
-        <mxGraphModel dx="816" dy="319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-            </root>
-        </mxGraphModel>
-    </diagram>
+<mxfile host="app.diagrams.net" modified="2024-05-23T14:37:18.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" version="24.4.4" etag="XQVQ4cJdh27hmQ1I60kw" type="github">
+  <diagram id="z5sTvMuWFLJlRwLJd7aa" name="ページ1">
+    <mxGraphModel dx="765" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H-NyoGKiBfnjbhI0ZFmw-2" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://iconape.com/wp-content/png_logo_vector/gatling.png;clipPath=inset(33.33% 0% 33.33% 0%);aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H-NyoGKiBfnjbhI0ZFmw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H-NyoGKiBfnjbhI0ZFmw-3" target="H-NyoGKiBfnjbhI0ZFmw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-NyoGKiBfnjbhI0ZFmw-3" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans Japanese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJapanese;strokeColor=#FFFFFF;fillColor=#000000;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-NyoGKiBfnjbhI0ZFmw-8" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://storage.googleapis.com/zenn-user-upload/767631cbb04c-20220702.png;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="121.29" height="37.6" as="geometry" />
+        </mxCell>
+        <mxCell id="H-NyoGKiBfnjbhI0ZFmw-10" value="Producer" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans Japanese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJapanese;strokeColor=#FFFFFF;fillColor=#000000;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
