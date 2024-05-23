@@ -16,6 +16,10 @@ Gatling の使い方
 
 https://qiita.com/hogucc/items/e213a93f5b3a3cd3c96f
 
+はじめての Gatling
+
+https://www.slideshare.net/n0ts/gatling-58305175
+
 echo framework
 
 https://jyouj.hatenablog.com/entry/2018/12/27/230409
