@@ -8,6 +8,8 @@ https://qiita.com/tarosaiba/items/b3d1c49c2cc5e773babf
 
 ## 構成の確認
 
+![](img/40_10_kafka_train.drawio.png)
+
 ## メモ
 
 Gatling の使い方
