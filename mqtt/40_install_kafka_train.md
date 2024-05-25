@@ -8,7 +8,17 @@ https://qiita.com/tarosaiba/items/b3d1c49c2cc5e773babf
 
 ## 構成の確認
 
+上記記事を参考に図を自分で作成
+
 ![](img/40_10_kafka_train.drawio.png)
+
+## リポジトリを pull
+
+```shell
+mkdir kafka-train
+cd kafka-train
+git clone https://github.com/tarosaiba/kafka-train
+```
 
 ## メモ
 
