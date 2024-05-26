@@ -98,7 +98,7 @@ Hostname=pve.local
 ```
 
 ```shell
-systemctl start zabbix-agent2
+systemctl restart zabbix-agent2
 ```
 
 少しまったら有効化された
