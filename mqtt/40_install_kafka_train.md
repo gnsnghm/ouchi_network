@@ -15,8 +15,6 @@ https://qiita.com/tarosaiba/items/b3d1c49c2cc5e773babf
 ## リポジトリを pull
 
 ```shell
-mkdir kafka-train
-cd kafka-train
 git clone https://github.com/tarosaiba/kafka-train
 ```
 

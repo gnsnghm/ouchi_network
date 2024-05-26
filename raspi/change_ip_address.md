@@ -1,14 +1,16 @@
-### 構築済み Raspberry pi の IP アドレスを変更する
+# 構築済み Raspberry pi の IP アドレスを変更する
 
-1年くらい前に何故かDHCP で使っていた Raspberry pi の IP アドレスを変更する。
+1 年くらい前に何故か DHCP で使っていた Raspberry pi の IP アドレスを変更する。
 
 ## 手順
+
 1. `/etc/dhcpcd.conf` を編集
 1. 再起動
 
 ## /etc/dhcpcd.conf を編集
 
 /etc/dhcpcd.conf(一部抜粋)
+
 ```conf
 interface eth0
 static ip_address=192.168.101.200/24
