@@ -182,3 +182,39 @@ latency average = 118.245 ms
 initial connection time = 4.452 ms
 tps = 16.914001 (without initial connection time)
 ```
+
+## セクタサイズが大きすぎた可能性を加味して初期化
+
+`--init-steps`初期化ステップを指定。
+
+d(テーブル削除)、t(テーブル作成)、p(Primary key 作成)、G(サーバ側データ生成、ロード)、v(VACCUM)
+
+```shell
+pgbench -i --init-steps=dtpGv -s 10 bench
+```
+
+再実行。やっぱり性能低いらしい
+
+```shell
+postgres@pgsql16:~$ pgbench -c 16 bench
+pgbench (16.3 (Ubuntu 16.3-1.pgdg22.04+1))
+starting vacuum...end.
+transaction type: <builtin: TPC-B (sort of)>
+scaling factor: 10
+query mode: simple
+number of clients: 16
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 160/160
+number of failed transactions: 0 (0.000%)
+latency average = 65.522 ms
+initial connection time = 32.639 ms
+tps = 244.193536 (without initial connection time)
+```
+
+古い Xeon ではこんなもんだということにする
+
+```shell
+Model name:             Intel(R) Xeon(R) CPU E3-1220 v5 @ 3.00GHz
+```
