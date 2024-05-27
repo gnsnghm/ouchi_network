@@ -218,3 +218,47 @@ tps = 244.193536 (without initial connection time)
 ```shell
 Model name:             Intel(R) Xeon(R) CPU E3-1220 v5 @ 3.00GHz
 ```
+
+## 補足
+
+Intel i7-8700K でやったら普通に出た。そらそうか。
+
+```shell
+Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+```
+
+初期化条件は同じ
+
+```shell
+pgbench -i --init-steps=dtpGv -s 10 bench
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating primary keys...
+generating data (server-side)...
+vacuuming...
+done in 2.06 s (drop tables 0.00 s, create tables 0.00 s, primary keys 0.01 s, server-side generate 1.90 s, vacuum 0.15 s).
+```
+
+tps 3000 オーバーだった
+
+```shell
+pgbench -c 16 bench
+pgbench (16.3 (Ubuntu 16.3-1.pgdg20.04+1))
+starting vacuum...end.
+transaction type: <builtin: TPC-B (sort of)>
+scaling factor: 10
+query mode: simple
+number of clients: 16
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 160/160
+number of failed transactions: 0 (0.000%)
+latency average = 4.502 ms
+initial connection time = 32.681 ms
+tps = 3554.291807 (without initial connection time)
+```
