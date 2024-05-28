@@ -4,7 +4,7 @@
 
 ```shell
 apt update && apt upgrade -y
-apt install vim
+apt install -y vim curl screen openjdk-21-jdk
 ```
 
 ```shell
@@ -94,6 +94,14 @@ No updates available for version 1.1.107 (latest experimental is 1.1.107).
 1. factorio 起動
 1. マルチプレイ
 1. アドレスに接続
-1. [IP アドレス]:[ポート番号]
+1. [IP アドレス]:[ポート番号] でアクセス
 
 特にパスワードも指定していないので接続できた
+
+## cloudfrale azure AD 認証対応
+
+[minecraft と同じ要領](../minectaft/10_setup_minecraft.md)で対応する
+
+と思ったが factorio は UDP なので zero trust 非対応だった(^\_^)
+
+別の方法を考える
