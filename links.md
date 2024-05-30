@@ -7,6 +7,10 @@
 [factorio server のインストール](factorio/10_install.md)
 
 
+## grafana
+[Grafana を Raspberry pi にインストールして zabbix サーバと連携する](grafana/10_install_and_zabbix.md)
+
+
 ## minectaft
 [minecraft server セットアップと + cloudflare azure AD 認証を活用したログイン](minectaft/10_setup_minecraft.md)
 
@@ -21,6 +25,10 @@
 [mosquitto 勉強](mqtt/30_install_mosquitto.md)
 
 [kafka train を試す](mqtt/40_install_kafka_train.md)
+
+
+## postgresql
+[PostgreSQL 16 を ubuntu 22.04 にインストール](postgresql/10_install.md)
 
 
 ## proxmox
