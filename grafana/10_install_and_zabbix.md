@@ -131,3 +131,9 @@ sudo systemctl restart grafana-server
   - Zabbix API ユーザーの権限を確認してください。
 
 これで、Grafana で Zabbix に蓄積されたデータを可視化することができます。
+
+## 参考
+
+かっこいい･･･
+
+![](10_img/10_graph_example.png)
