@@ -68,10 +68,10 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
   - zabbix をつかった高度な監視(何があるかから調べる)
   - proxmox on proxmox
   - proxmox 内の VLAN 環境作成
-  - factorio サーバ
   - wake on lan の設定(別サブネットからの起動)
   - postgresql 追加負荷テスト
   - docker-osx やる https://github.com/sickcodes/Docker-OSX
+  - factorio 認証(UDP なので zero trust が使えない)
 
 - 済
 
@@ -82,4 +82,5 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
   - wake on lan
   - 作業記録ジェネレータ
   - postgresql 負荷テスト
+  - factorio サーバ
   - Fortigate 50E に OpenWrt をインストール

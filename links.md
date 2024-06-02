@@ -7,6 +7,10 @@
 [factorio server のインストール](factorio/10_install.md)
 
 
+## fortinet
+[Fortinet FortiGate 50E に OpenWrt をインストールする](fortinet/10_install_openwrt.md)
+
+
 ## grafana
 [Grafana を Raspberry pi にインストールして zabbix サーバと連携する](grafana/10_install_and_zabbix.md)
 
