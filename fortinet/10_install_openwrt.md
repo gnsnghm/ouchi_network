@@ -229,3 +229,17 @@ sysupgrade -v openwrt-23.05.3-mvebu-cortexa9-fortinet_fg-50e-squashfs-sysupgrade
 
 もし再起動後、メーカファームウェアが起動する場合は、再起動の上 boot menu
 に入り `[B]: Boot with backup firmware and set as default.` で書き換える
+
+## 参考にしたリンク
+
+[大破ログ Fortinet FortiGate 50E](https://taiha.hatenablog.jp/entry/2023/03/10/004523)
+
+[FortiGate 50E に OpenWRT を入れ tinc をセットアップする](https://scrapbox.io/Geek-SpaceBox/FortiGate_50E%E3%81%ABOpenWRT%E3%82%92%E5%85%A5%E3%82%8Ctinc%E3%82%92%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%99%E3%82%8B)
+
+[闇ネット OS on Fortigate 50E（暫定）](https://scrapbox.io/Geek-SpaceBox/%E9%97%87%E3%83%8D%E3%83%83%E3%83%88OS_on_Fortigate_50E%EF%BC%88%E6%9A%AB%E5%AE%9A%EF%BC%89)
+
+[TFTP サーバーの起動方法(Mac 編)](https://infrastructure-engineer.com/tftp-server-mac-001/)
+
+[Mac でルータにコンソール接続する](https://qiita.com/yukihigasi/items/8a7deed5e3760b670969)
+
+[Mac OS で tftp サーバー起動](https://sunabako.wordpress.com/2010/03/17/mac-os%E3%81%A7tftp%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E8%B5%B7%E5%8B%95/)
