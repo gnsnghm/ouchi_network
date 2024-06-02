@@ -262,3 +262,9 @@ latency average = 4.502 ms
 initial connection time = 32.681 ms
 tps = 3554.291807 (without initial connection time)
 ```
+
+# 備考
+
+PGTune
+
+https://pgtune.leopard.in.ua/
