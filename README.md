@@ -82,3 +82,4 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
   - wake on lan
   - 作業記録ジェネレータ
   - postgresql 負荷テスト
+  - Fortigate 50E に OpenWrt を員スチール
