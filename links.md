@@ -3,6 +3,10 @@
 [Cloudflare tunnel と Microsoft Entra ID(旧 Azure AD) を利用してお家ネットワークにセキュアにアクセスする](cloudflare/manual.md)
 
 
+## docker-osx
+[Docker Desktop for Windows に docker-osx を入れて WSL2 から起動する](docker-osx/10_install.md)
+
+
 ## factorio
 [factorio server のインストール](factorio/10_install.md)
 

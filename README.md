@@ -6,7 +6,9 @@
 
 ![](./ouchi.drawio.png)
 
-## ONU とルータの関係
+## 簡単な説明
+
+### ONU と Router の関係
 
 弊宅は ONU とルータが一体型になって提供される回線を利用している。
 
@@ -15,6 +17,15 @@
 方法については下記サイトを参考に設定。
 
 https://kaiza.org/blog/blog/2023/05/nuro-zxt-f660prtx1210.html
+
+### VLAN の分け方について
+
+一部 VLAN になっていないところはサブネットで分けられると設定が面倒になりそうだった部分(結局困らなかった)
+
+分けてあるところは以下のように定義
+
+- VLAN101：サーバ、検証用
+- VLAN102：無線 LAN 関係全て
 
 ## IPv6 対応
 
@@ -29,8 +40,6 @@ https://qiita.com/buttyo_kuny/items/c2521d8c6919b982861e
 VLAN の設定は MAC アドレスを指定するやり方で対応。
 
 https://network.yamaha.com/setting/router_firewall/switch_control/switch_swx-command/tag_vlan
-
-一部 VLAN になっていないところがあるのは特に理由はない。
 
 ## VLAN から ping が通らない
 
@@ -65,12 +74,10 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
 - 未
 
   - Guacamole の RPD 接続がどれくらい使い物になるか確認(ubuntu でやったら失敗した 😭)
-  - zabbix をつかった高度な監視(何があるかから調べる)
   - proxmox on proxmox
   - proxmox 内の VLAN 環境作成
   - wake on lan の設定(別サブネットからの起動)
   - postgresql 追加負荷テスト
-  - docker-osx やる https://github.com/sickcodes/Docker-OSX
   - factorio 認証(UDP なので zero trust が使えない)
 
 - 済
@@ -84,3 +91,7 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
   - postgresql 負荷テスト
   - factorio サーバ
   - Fortigate 50E に OpenWrt をインストール
+  - docker-osx やる https://github.com/sickcodes/Docker-OSX
+
+- 保留
+  - zabbix をつかった高度な監視(Grafana いれたので)
