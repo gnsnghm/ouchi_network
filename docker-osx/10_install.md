@@ -116,8 +116,35 @@ uninitialized のディスクを選択して、 erase を選択
 
 ![](10_img/95_mac.png)
 
-## 課題
+## 再開方法
 
-適当にシャットダウンしたら消えてしまった
+```shell
+# look at your recent containers and copy the CONTAINER ID
+docker ps --all
 
-残しておくにはどうしたらいいんだ・・？
+# docker start the container ID
+docker start -ai abc123xyz567
+```
+
+## AUDIO を有効にする
+
+メモ。まだ試しきれていない。
+
+1.2. PulseAudio for Windows をインストールを実行
+
+https://qiita.com/speaktech/items/9e42bfa668c381f9af23
+
+```shell
+docker run -it \
+    --device /dev/kvm \
+    -p 50923:10022 \
+    -e AUDIO_DRIVER=pa,server=unix:/tmp/pulseaudio.socket \
+    -e "DISPLAY=${DISPLAY:-:0.0}" \
+    -v /mnt/wslg/runtime-dir/pulse/native:/tmp/pulseaudio.socket \
+    -v /mnt/wslg/.X11-unix:/tmp/.X11-unix \
+    -e GENERATE_UNIQUE=true \
+    -e CPU='Haswell-noTSX' \
+    -e CPUID_FLAGS='kvm=on,vendor=GenuineIntel,+invtsc,vmware-cpuid-freq=on' \
+    -e MASTER_PLIST_URL='https://raw.githubusercontent.com/sickcodes/osx-serial-generator/master/config-custom-sonoma.plist' \
+    sickcodes/docker-osx:sonoma
+```
