@@ -28,10 +28,12 @@ backend： https://github.com/gnsnghm/inc_be
 
 ## render.com への手順
 
-frontend、 backend 共に
+frontend、 backend 共に同じ手順で OK
 
 1. アカウントの登録
 1. `+ New` > `Web Service` > `Git Provider`
 1. Build Command を設定
 1. Start Command を設定
 1. Environment を設定
+
+## PostgreSQL の
