@@ -113,3 +113,5 @@ No updates available for version 1.1.107 (latest experimental is 1.1.107).
 https://github.com/factoriotools/factorio-docker
 
 https://www.reddit.com/r/selfhosted/comments/10a85hl/factorio_serverudp_via_cloudflare_tunnel/
+
+stable バージョンが落ちてこない･･･
