@@ -55,7 +55,7 @@ save
 
 https://sys-guard.com/post-15730/
 
-## 各種作業メモリンク
+## 作業記録リンク
 
 [こちら](links.md) に作業記録をまとめている
 
@@ -78,8 +78,7 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
   - proxmox on proxmox
   - proxmox 内の VLAN 環境作成
   - wake on lan の設定(別サブネットからの起動)
-  - postgresql 追加負荷テスト
-  - factorio 認証(UDP なので zero trust が使えない)
+  - postgresql 追加負荷テスト(TPC-H/TPC-DS/DBT-3)
 
 - 済
 
@@ -96,3 +95,4 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
 
 - 保留
   - zabbix をつかった高度な監視(Grafana いれたので)
+  - factorio 認証(Auto Frogeがおもしろいので)
