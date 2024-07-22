@@ -73,7 +73,7 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
 
 - 未
 
-  - NAS の有効活用(SD カード自動化)
+  - NAS の有効活用(SD カードの転送自動化)
   - Guacamole の RPD 接続がどれくらい使い物になるか確認(ubuntu でやったら失敗した 😭)
   - proxmox on proxmox
   - proxmox 内の VLAN 環境作成
