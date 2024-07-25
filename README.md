@@ -79,6 +79,7 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
   - proxmox 内の VLAN 環境作成
   - wake on lan の設定(別サブネットからの起動)
   - postgresql 追加負荷テスト(TPC-H/TPC-DS/DBT-3)
+  - ブログ開発
 
 - 済
 
@@ -89,6 +90,7 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
   - wake on lan
   - 作業記録ジェネレータ
   - postgresql 負荷テスト
+  - psotgresql 比較ツール開発
   - factorio サーバ
   - Fortigate 50E に OpenWrt をインストール
   - docker-osx やる https://github.com/sickcodes/Docker-OSX
