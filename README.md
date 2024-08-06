@@ -80,6 +80,7 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
   - wake on lan の設定(別サブネットからの起動)
   - postgresql 追加負荷テスト(TPC-H/TPC-DS/DBT-3)
   - ブログ開発
+  - Claude 課金
 
 - 済
 
