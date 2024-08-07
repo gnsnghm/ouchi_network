@@ -80,7 +80,6 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
   - wake on lan の設定(別サブネットからの起動)
   - postgresql 追加負荷テスト(TPC-H/TPC-DS/DBT-3)
   - ブログ開発
-  - Claude 課金
 
 - 済
 
@@ -95,6 +94,7 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
   - factorio サーバ
   - Fortigate 50E に OpenWrt をインストール
   - docker-osx やる https://github.com/sickcodes/Docker-OSX
+  - Claude 課金
 
 - 保留
   - zabbix をつかった高度な監視(Grafana いれたので)
