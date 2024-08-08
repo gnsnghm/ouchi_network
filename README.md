@@ -79,7 +79,7 @@ https://qiita.com/Ikumi/items/b319a12d7e2c9f7b904d
   - proxmox 内の VLAN 環境作成
   - wake on lan の設定(別サブネットからの起動)
   - postgresql 追加負荷テスト(TPC-H/TPC-DS/DBT-3)
-  - ブログ開発
+  - ブログ開発(ttailwand CSS +nextjs)
 
 - 済
 
