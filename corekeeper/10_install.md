@@ -38,7 +38,7 @@ sudo apt-get update
 adduser keeper
 usermod -aG docker keeper
 ```
-## Core Keeper Decated Server
+## Core Keeper Dedicated Server
 
 ```shell
 git clone https://github.com/escapingnetwork/core-keeper-dedicated.git
